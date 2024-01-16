@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<?php
+$metaTitle = 'CV - FSA';
+$metaDescription = 'Florent SARTOUT, étudiant DevOps, est à la recherche d\'une alternance à partir du début du mois de septembre 2024';
+?>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Florent SARTOUT, étudiant DevOps, est à la recherche d'une alternance à partir du début du mois de septembre 2024">
+    <meta name="description" content=<?= $metaDescription ?>>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - FSA</title>
+    <title><?= $metaTitle ?></title>
 
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
